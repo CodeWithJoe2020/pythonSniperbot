@@ -29,7 +29,7 @@ tokenToBuy = web3.toChecksumAddress('0x899559c7151ddc01Fc084341B36101EAC1B6C01B'
 
 #If conditions are met we buy the token
 def buy():
-    time.sleep(20)
+    
     spend = web3.toChecksumAddress("0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c")  #wbnb contract address
 
     nonce = web3.eth.get_transaction_count(sender_address)
