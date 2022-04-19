@@ -2,7 +2,6 @@
 import json
 from web3 import Web3
 import asyncio
-import config
 import time
 
 # add your blockchain connection information
